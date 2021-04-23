@@ -20,7 +20,7 @@ object CoinTossHelpers {
   }
 
   def printGameState(gameState: GameState): Unit = {
-    println(s"#Flips: ${gameState.numFlips}0\n#Correct: ${gameState.numCorrectGuesses}\nSuccess Rate: ${gameState.numCorrectGuesses}/${gameState.numFlips}")
+    println(s"#Flips: ${gameState.numFlips}\n#Correct: ${gameState.numCorrectGuesses}\nSuccess Rate: ${gameState.numCorrectGuesses}/${gameState.numFlips}")
   }
 
   def printGameOver: Unit = println("\n=== GAME OVER! ===")
